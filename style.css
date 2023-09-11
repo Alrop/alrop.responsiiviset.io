@@ -43,6 +43,17 @@ nav {
 
 h1, h2, h3, p {
     padding: 5px;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+th{
+    text-align: left;
+}
+table{
+    white-space:nowrap;
+    min-width:30px;
+    vertical-align:top;
 }
 
 /* responsive media */

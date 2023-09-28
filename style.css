@@ -17,6 +17,7 @@ nav {
     background: #95c21f;
     height: 80px;
     width: 100%;
+
 }
 
 .navLinks {
@@ -28,6 +29,8 @@ nav {
 }
 
 .navLinks li a {
+    font-size: vh;
+
     color: white;
     text-decoration: none;
     letter-spacing: 2px;
@@ -44,7 +47,7 @@ nav {
     display: none;
 }
 
-h1, h2, h3, p, ul{
+h1, h2, h3, p, ul, table{
     padding: 5px;
     margin-left: 5%;
     margin-right: 2%;
@@ -54,6 +57,7 @@ th{
     text-align: left;
 }
 table{
+    border-spacing: 10px;
     white-space:nowrap;
     min-width:30px;
     vertical-align:top;
